@@ -8,17 +8,13 @@ DEPENDENCIES:
 The menu is comprised of three main files: the HTML, the CSS, and a JavaScript file.
 
 mobile-menu-flip.html
-
 mobile-menu-flip.css
 
 mobile-menu-slide.hml
-
 mobile-menu-slide.css
 
 Both menus require:
-
 jquery.js
-
 mobile-menu-static.js 
 (there is also a dynamic version in which the menu is populated via AJAX from JSON)
 
