@@ -6,10 +6,10 @@ A mobile menu as Finite State Machnine - Moore, to be exact.
 DEPENDENCIES:
 The menu is comprised of three main files: the HTML, the CSS, and a JavaScript file.
 
-mobile-menu-flip.html
+mobile-menu-flip.html\n
 mobile-menu-flip.css
 
-mobile-menu-slide.hml
+mobile-menu-slide.hml\n
 mobile-menu-slide.css
 
 Both menus require:
