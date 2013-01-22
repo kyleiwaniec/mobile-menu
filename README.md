@@ -24,7 +24,7 @@ jquery.js & mobile-menu-static.js
  
 SUPPORTED DEVICES: 
 
-Sliding Menu: iPhone 4 + up, Android 2.3.x + up, Windows 8 phone 
+Sliding Menu: iPhone 4 + up, Android 2.3.3 + up, Windows 8 phone 
 
 Card Flip Menu: iPhone 
 
