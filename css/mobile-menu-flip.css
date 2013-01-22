@@ -141,7 +141,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
 
     .search_icon{
         padding: 10px;
-        background: url(images/search-icon.png) center center no-repeat;
+        background: url(../images/search-icon.png) center center no-repeat;
         background-size: 24px 40px;
     }
 
@@ -194,7 +194,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
         perspective: 800px;
 
 
-        background-image: url(images/Skulls_and_Crossbones_pink.png);
+        background-image: url(../images/Skulls_and_Crossbones_pink.png);
         background-size:contain;
         background-repeat: no-repeat;
         background-position: 50%;
@@ -368,7 +368,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
                 width: 44px;
                 height: 41px;
                 display: inline-block;
-                background: #eee url(images/http://www-dev.nj.com/fed/khamilton/mobile-toprail/icon-sprite.png) 100% -162px no-repeat;
+                background: #eee url(../images/http://www-dev.nj.com/fed/khamilton/mobile-toprail/icon-sprite.png) 100% -162px no-repeat;
                 margin-top: -31px;
                 margin-right:-10px;
                 cursor: pointer;
@@ -478,7 +478,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
              -o-transform-style: preserve-3d;
                 transform-style: preserve-3d;
 
-                background-image: url(images/old-spice.gif);
+                background-image: url(../images/old-spice.gif);
                 background-size:contain;
                 background-repeat: no-repeat;
                 background-position: 50%;

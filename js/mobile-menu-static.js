@@ -32,14 +32,11 @@
  */
 
 $(function(){
-            var zindex = 0,
-                openSubsection = ( function (id) {
-                                    zindex += 1;
-                                    $('.subnav[data-subnav="'+id+'"]').css({'z-index':zindex});
-                                 });
+            
 
             var slideNav = (function(){
-
+                    
+                                 
                     var mobile_menu =   $("#menu_wrapper"),
                         menu_btn =      $("#menu_button"),
                         nav_outer =     $('#nav_outer'), 
@@ -178,10 +175,10 @@ $(function(){
                              action.open(extra_outer, extra_btn);
                         }
                     }
-                    var ua = navigator.userAgent.toLowerCase();
-                    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-
-                    var cls = isAndroid ? 'openAndroid' : 'open';
+                    var ua = navigator.userAgent.toLowerCase(),
+                        isAndroid = ua.indexOf("android") > -1, //&& ua.indexOf("mobile");
+                        cls = isAndroid ? 'openAndroid' : 'open';
+                    
                     var action = {
 
                          open : function(){
@@ -194,7 +191,13 @@ $(function(){
                                     var i = args.length;
                                     while (i--) { args[i].removeClass(cls); }
                                 }
-                       }
+                       };
+                       
+                    var zindex = 0,
+                        openSubsection = ( function (id) {
+                               zindex += 1;
+                               $('.subnav[data-subnav="'+id+'"]').css({'z-index':zindex});
+                               });
                })();
             });
 
