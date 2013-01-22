@@ -1,0 +1,140 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <title>mobile menu</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+
+        <link rel="stylesheet" href="mobile-menu-flip.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+        <script src="mobile-menu-static.js"></script>
+    
+        
+    </head>
+    <body>
+
+        <div id="menu_wrapper">
+            <div id="menu_bar_wrapper">
+
+                <div class="menu_bar">
+                    <div class="bar-left btn menu_icon" data-btn="0" id="menu_button"></div>
+
+                    <div class="bar-center"><h1 class="bar_title">Flipping Menu</h1></div>
+
+                    <div class="bar-right">
+                        <div class="btn" data-btn="1" id="search_button"><span class="search_icon"></span></div>
+                        <div class="btn love_icon" data-btn="3" id="extra_button"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+<!-- widgets -->
+
+            <div id="nav_outer" data-widget="0">
+                <div id="nav_inner">
+                    <figure class="front">
+                        <ul class="col_1">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="#">Andromeda</a><span class="nav_btn" id="Andromeda" data-btn="2"></span></li>
+                            <li><a href="#">Aries</a><span class="nav_btn" id="Aries" data-btn="2"></span></li>
+                            <li><a href="#">Caelum</a><span class="nav_btn" id="Caelum" data-btn="2"></span></li>
+                            <li><a href="#">Capricornus</a></li>
+                            <li><a href="#">Hercules</a></span></li>
+                            <li><a href="#">Indus</a></li>
+                            <li><a href="#">Leo Minor</a></li>
+                        </ul>
+
+                        <ul class="col_2">
+                            <li><a href="#">Libra</a></li>
+                            <li><a href="#">Lynx</a><span class="nav_btn" id="Lynx" data-btn="2"></span></li>
+                            <li><a href="#">Microscopium</a></li>
+                            <li><a href="#">Octans</a></li>
+                            <li><a href="#">Phoenix</a></li>
+                            <li><a href="#">Puppis</a></li>
+                            <li><a href="#">Sculptor</a></li>
+                            <li><a href="#">Virgo</a></li>
+                        </ul>
+                    </figure>
+
+                    <figure class="back">
+                        
+                        <ul  class="subnav" data-subnav="Andromeda">
+                            <li><a href="http://en.wikipedia.org/wiki/Alpha_Andromedae">α And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Beta_Andromedae">β And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Gamma_Andromedae">γ1 And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Delta_Andromedae">δ And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Andromeda_Galaxy">Andromeda Galaxy</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/51_Andromedae">51 And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Omicron_Andromedae">ο And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Lambda_Andromedae">λ And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Mu_Andromedae">μ And</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Zeta_Andromedae">ζ And</a></li>
+                        </ul>
+                        <ul class="subnav" data-subnav="Aries">
+                            <li><a href="http://en.wikipedia.org/wiki/Alpha_Arietis">α Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Beta_Arietis">β Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/41_Arietis">41 Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Gamma_Arietis">γ1 Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Delta_Arietis">δ Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/HD_20644">HD 20644</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/39_Arietis">39 Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Epsilon_Arietis">ε Ari</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/35_Arietis">35 Ari</a></li>
+                        </ul>
+                        <ul class="subnav" data-subnav="Caelum">
+                            <li><a href="http://en.wikipedia.org/wiki/Alpha_Caeli">α Cae</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Gamma%C2%B9_Caeli">γ1 Cae</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Beta_Caeli">β Cae</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/Delta_Caeli">δ Cae</a></li>
+                            <li><a href="http://en.wikipedia.org/w/index.php?title=12_G._Caeli&action=edit&redlink=1">12 G. Cae</a></li>
+                            
+                        </ul>
+                        <ul class="subnav" data-subnav="Lynx">
+                            <li><a href="http://en.wikipedia.org/wiki/Alpha_Lyncis">α Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/38_Lyncis">38 Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/10_Ursae_Majoris">10 UMa</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/31_Lyncis">31 Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/15_Lyncis">15 Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/2_Lyncis">2 Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/HD_77912">HD 77912</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/21_Lyncis">21 Lyn</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/27_Lyncis">27 Lyn</a></li>
+                        </ul>
+                    </figure>
+                </div><!-- #nav -->
+            </div><!-- .widget_outer -->
+
+            
+            <div id="extra_outer">
+                <div class="extra_inner">
+                    <p><strong>You can push <br/><em>THAT</em> button <br/>again!</strong></p>
+                </div>
+            </div>
+            <div id="search_outer" data-widget="1">
+                <div id="search_inner">
+                    <form method="get" action="">
+                        <input placeholder="Search..." type="text" id="search-field"/>
+                        <input type="submit" value="go" style="display:none"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end toprail -->
+        <div role="main" id="main">
+            <h2>Content</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae sem diam. Nullam vehicula rutrum nunc vel mattis. Aenean sit amet velit ante. Nulla tincidunt facilisis libero. In nunc dui, posuere nec aliquam nec, tincidunt eu nunc. Vivamus euismod dictum dui, a fermentum leo molestie sed. Maecenas quis scelerisque tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac iaculis felis. Aenean tristique, lorem at volutpat ultrices, lorem eros lobortis elit, ac molestie odio neque vitae massa. Curabitur sed sapien quam, eu rhoncus dui. Praesent iaculis mattis faucibus.
+
+Aliquam erat volutpat. Sed tempus, sem ut rutrum gravida, ante dolor interdum sapien, at semper erat libero vel elit. Vivamus condimentum odio sed erat pellentesque non dignissim massa rutrum. Vestibulum eget eros quis dolor aliquet congue. Suspendisse potenti. Morbi suscipit est sit amet libero vestibulum hendrerit. Nam placerat gravida felis nec adipiscing. Proin ac purus nec nisi condimentum adipiscing eget a enim. Praesent venenatis cursus velit, id ullamcorper justo placerat non. Curabitur ornare magna ut magna sodales ut semper metus feugiat. Quisque non mi sit amet felis aliquet pretium.
+        </div>
+
+    </body>
+</html>
