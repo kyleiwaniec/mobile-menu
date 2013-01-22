@@ -14,7 +14,7 @@ mobile-menu-slide.hml & mobile-menu-slide.css
 Both menus require:
 
 jquery.js & mobile-menu-static.js 
-(there is also a dynamic version in which the menu is populated via AJAX from JSON)
+(there also exists a dynamic version in which the menu is populated via AJAX from JSON)
 
 
 1. The HTML files are the same with the exception of the reference to the appropriate CSS file
