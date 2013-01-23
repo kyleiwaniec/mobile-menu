@@ -368,7 +368,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
                 width: 44px;
                 height: 41px;
                 display: inline-block;
-                background: #eee url(../images/http://www-dev.nj.com/fed/khamilton/mobile-toprail/icon-sprite.png) 100% -162px no-repeat;
+                background: #eee url(../images/icon-sprite.png) 100% -162px no-repeat;
                 margin-top: -31px;
                 margin-right:-10px;
                 cursor: pointer;
