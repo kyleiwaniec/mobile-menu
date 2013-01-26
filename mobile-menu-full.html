@@ -1,0 +1,216 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <title>mobile menu</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/mobile-menu-slide.css" />
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="js/mobile-menu-static.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="desktopMenu"></div>
+            <div id="menu_wrapper">
+                <div id="menu_bar_wrapper">
+
+                    <div class="menu_bar">
+                        <div class="bar-left btn menu_icon" data-btn="0" id="menu_button"></div>
+
+                        <div class="bar-center"><h1 class="bar_title">Sliding Menu</h1></div>
+
+                        <div class="bar-right">
+                            <div class="btn" data-btn="1" id="search_button"><span class="search_icon"></span></div>
+                            <div class="btn love_icon" data-btn="3" id="extra_button"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- widgets -->
+
+                <div id="nav_outer" data-widget="0">
+                    <div id="nav_inner">
+                        <figure class="front">
+                            <ul class="col_1">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#">Andromeda</a><span class="nav_btn" id="Andromeda" data-btn="2"></span></li>
+                                <li><a href="#">Aries</a><span class="nav_btn" id="Aries" data-btn="2"></span></li>
+                                <li><a href="#">Caelum</a><span class="nav_btn" id="Caelum" data-btn="2"></span></li>
+                                <li><a href="#">Capricornus</a></li>
+                                <li><a href="#">Hercules</a></li>
+                                <li><a href="#">Indus</a></li>
+                                <li><a href="#">Leo</a></li>
+                            </ul>
+
+                            <ul class="col_2">
+                                <li><a href="#">Libra</a></li>
+                                <li><a href="#">Lynx</a><span class="nav_btn" id="Lynx" data-btn="2"></span></li>
+                                <li><a href="#">Microscopium</a></li>
+                                <li><a href="#">Octans</a></li>
+                                <li><a href="#">Phoenix</a></li>
+                                <li><a href="#">Puppis</a></li>
+                                <li><a href="#">Sculptor</a></li>
+                                <li><a href="#">Virgo</a></li>
+                            </ul>
+                        </figure>
+
+                        <figure class="back">
+
+                            <ul class="subnav" data-subnav="Andromeda">
+                                <li><a href="http://en.wikipedia.org/wiki/Alpha_Andromedae">α And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Beta_Andromedae">β And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Gamma_Andromedae">γ1 And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Delta_Andromedae">δ And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Andromeda_Galaxy">Andromeda Galaxy</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/51_Andromedae">51 And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Omicron_Andromedae">ο And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Lambda_Andromedae">λ And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Mu_Andromedae">μ And</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Zeta_Andromedae">ζ And</a></li>
+                            </ul>
+                            <ul class="subnav" data-subnav="Aries">
+                                <li><a href="http://en.wikipedia.org/wiki/Alpha_Arietis">α Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Beta_Arietis">β Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/41_Arietis">41 Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Gamma_Arietis">γ1 Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Delta_Arietis">δ Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/HD_20644">HD 20644</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/39_Arietis">39 Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Epsilon_Arietis">ε Ari</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/35_Arietis">35 Ari</a></li>
+                            </ul>
+                            <ul class="subnav" data-subnav="Caelum">
+                                <li><a href="http://en.wikipedia.org/wiki/Alpha_Caeli">α Cae</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Gamma%C2%B9_Caeli">γ1 Cae</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Beta_Caeli">β Cae</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/Delta_Caeli">δ Cae</a></li>
+                                <li><a href="http://en.wikipedia.org/w/index.php?title=12_G._Caeli&action=edit&redlink=1">12 G. Cae</a></li>
+
+                            </ul>
+                            <ul class="subnav" data-subnav="Lynx">
+                                <li><a href="http://en.wikipedia.org/wiki/Alpha_Lyncis">α Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/38_Lyncis">38 Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/10_Ursae_Majoris">10 UMa</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/31_Lyncis">31 Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/15_Lyncis">15 Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/2_Lyncis">2 Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/HD_77912">HD 77912</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/21_Lyncis">21 Lyn</a></li>
+                                <li><a href="http://en.wikipedia.org/wiki/27_Lyncis">27 Lyn</a></li>
+                            </ul>
+                        </figure>
+                    </div><!-- #nav -->
+                </div><!-- .widget_outer -->
+
+
+                <div id="extra_outer">
+                    <div class="extra_inner">
+                        <p><strong>You can push <br/><em>THAT</em> button <br/>again!</strong></p>
+                    </div>
+                </div>
+                <div id="search_outer" data-widget="1">
+                    <div id="search_inner">
+                        <form method="get" action="">
+                            <input placeholder="Search..." type="text" id="search-field"/>
+                            <input type="submit" value="go" style="display:none"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end toprail -->
+            <div role="main" id="main">
+                <h2>Content</h2>
+                <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices, purus eleifend ultricies venenatis, justo velit placerat turpis, ut iaculis quam magna egestas sapien. Morbi sit amet augue enim, vitae varius libero. Etiam ut neque non quam imperdiet consequat. Sed volutpat urna aliquet dolor consequat rhoncus. Integer eu tincidunt arcu. Nullam elementum urna in nisl blandit vestibulum. Aliquam sem est, molestie vitae vehicula in, pharetra facilisis magna. Proin massa lectus, rhoncus in feugiat sed, tristique nec eros. Maecenas mollis tellus rutrum magna ullamcorper sit amet mattis elit viverra. Vestibulum sit amet ipsum tempor enim vestibulum tristique. Sed gravida purus sed dui feugiat eu mattis nisl ornare. Vivamus dolor diam, molestie vel consectetur non, posuere id ante. Duis mollis vestibulum molestie.
+</p>
+<p>
+Fusce et eleifend nisl. Cras sed elit consequat velit venenatis pellentesque eget at tellus. Nulla at turpis et libero tristique adipiscing in et enim. Suspendisse potenti. Praesent elementum, odio eu eleifend lacinia, mi urna dignissim arcu, at ullamcorper enim dui eget lectus. Vestibulum rutrum suscipit quam, vel cursus leo aliquet a. Nulla mi mauris, bibendum nec luctus at, adipiscing quis purus. Vestibulum fringilla pulvinar libero vitae ornare. Etiam scelerisque ligula risus. Duis tincidunt auctor pharetra. In a leo eu felis tincidunt laoreet. Sed ullamcorper bibendum diam a tristique. Curabitur in dapibus erat.
+</p>
+<p>
+Aliquam mattis accumsan ligula eu volutpat. In hac habitasse platea dictumst. Aenean erat urna, cursus vel pellentesque quis, placerat eget metus. Vestibulum turpis dolor, vulputate ac semper vel, molestie ut nisl. Aliquam a sapien risus. Donec ultricies porttitor velit id egestas. Nulla sed neque ligula, in sodales neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim tincidunt aliquet. Pellentesque tempus, eros eu sollicitudin posuere, orci elit laoreet massa, at condimentum mi nibh non nulla. Quisque nec quam nec elit feugiat porttitor nec sit amet odio. Quisque ut elit at lacus blandit tincidunt nec ac nulla. Mauris dignissim ultrices mollis. Mauris leo libero, dignissim at egestas non, venenatis et libero. Vivamus lacus elit, molestie adipiscing venenatis sed, interdum ac elit. In a ligula nunc.
+</p>
+<p>
+Aenean turpis metus, ultrices et volutpat vel, semper auctor massa. Ut vel urna elit. Morbi quis elit at enim porttitor vestibulum. In placerat iaculis nunc, in blandit ante sodales sed. Suspendisse facilisis vulputate lacus, et convallis magna ultricies nec. Aliquam sed aliquet turpis. Proin pretium tincidunt tristique. Fusce sodales sagittis porttitor. Nullam volutpat rhoncus venenatis. Duis nibh leo, faucibus tempor blandit eget, dignissim vitae risus.
+</p>
+<!--                <div id="ie-test">
+
+                    <ul id="boxLinks" class="group">
+                        <li><a href="#box1">Tab 19</a></li>
+                        <li><a href="#box2">Tab 20</a></li>
+                        <li><a href="#box3">Tab 21</a></li>
+                    </ul>
+
+                    <div id="box">
+                        <div id="box1" class="box">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>Vestibulum auctor dapibus neque.</li>
+                            </ul>
+                            [if IE]><b>.</b><![endif]
+                        </div>
+                        <div id="box2" class="box">Another box! [if IE]><b>.</b><![endif]</div>
+                        <div id="box3" class="box">Woot! [if IE]><b>.</b><![endif]</div>
+                    </div>
+
+                </div>-->
+            </div>
+        </div>
+        <script>
+            
+            
+            var winWidth = $(window).width();
+            if(winWidth > 640){
+                
+                (function(){
+                    
+                    var links = {
+                        "col1" : [],
+                        "col2" : [],
+                        "back" : {}
+                    }
+                    $(".col_1 li").each(function(){
+                        links.col1.push($(this));
+                    });
+                    $(".col_2 li").each(function(){
+                        links.col2.push($(this));
+                    });
+                    $(".back ul").each(function(){
+                        var i = $(this).data("subnav");
+                        links.back[i] = $(this).find("li");
+                    });
+                    var outer = links.col1.length;    
+                    var dm = $("#desktopMenu");
+                    var navigation = "<ul>";
+                    for(var i = 0; i < outer; i++) {
+                        navigation += "<li>"+$(links.col1[i]).html();
+                        var sublink = $(links.col1[i]).text();
+                        var sublinks = links.back[sublink];
+                        if(sublinks != undefined){
+                            var inner = sublinks.length;
+                            navigation += "<ul>";
+                            for(var j = 0; j < inner; j++){
+                                navigation += "<li>"+$(sublinks[j]).html()+"</li>";
+                            }
+                            navigation += "</ul>";
+                        }
+                        navigation += "</li>"
+                    }
+                    navigation += "</ul>";
+                    dm.html(navigation);
+                })();
+                    
+            };
+
+        </script>
+    </body>
+</html>
