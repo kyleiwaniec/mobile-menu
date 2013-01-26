@@ -31,15 +31,14 @@ ul, li{
     -moz-box-orient: horizontal;
     display: box;
     -moz-box-orient: horizontal;
+    margin-top:20px;
 }
 #desktopMenu ul{
     list-style :none;
-    margin:0; 
     padding:0; /* gets rid of any inherited margins and padding */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
     position:relative;
-    z-index:1000;
     max-width:950px;
 }
 #desktopMenu > ul > li { 
@@ -79,10 +78,16 @@ ul, li{
     -ms-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
+#desktopMenu > ul.row2 > li > a{
+    background-color: #9ad41f; 
+}
 #desktopMenu > ul > li > a:hover{
     background-color:#770030; 
     color:#fff;
-
+}
+#desktopMenu > ul.row2 > li > a:hover{
+    background-color:#4c7001; 
+    color:#fff;
 }
 
 /* the show/hide effects */

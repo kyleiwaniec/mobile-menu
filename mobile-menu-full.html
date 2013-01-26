@@ -188,24 +188,45 @@ Aenean turpis metus, ultrices et volutpat vel, semper auctor massa. Ut vel urna 
                         var i = $(this).data("subnav");
                         links.back[i] = $(this).find("li");
                     });
-                    var outer = links.col1.length;    
+                    var outer1 = links.col1.length; 
+                    var outer2 = links.col2.length;
                     var dm = $("#desktopMenu");
-                    var navigation = "<ul>";
-                    for(var i = 0; i < outer; i++) {
+                    var navigation = "<ul class='row1'>";
+                    for(var i = 0; i < outer1; i++) {
                         navigation += "<li>"+$(links.col1[i]).html();
                         var sublink = $(links.col1[i]).text();
                         var sublinks = links.back[sublink];
                         if(sublinks != undefined){
-                            var inner = sublinks.length;
+                            var inner1 = sublinks.length;
                             navigation += "<ul>";
-                            for(var j = 0; j < inner; j++){
+                            for(var j = 0; j < inner1; j++){
                                 navigation += "<li>"+$(sublinks[j]).html()+"</li>";
                             }
                             navigation += "</ul>";
                         }
                         navigation += "</li>"
                     }
+                    navigation += "</ul><ul class='row2'>";
+                    
+                    for(var i = 0; i < outer2; i++) {
+                        navigation += "<li>"+$(links.col2[i]).html();
+                        var sublink2 = $(links.col2[i]).text();
+                        var sublinks2 = links.back[sublink2];
+                        if(sublinks2 != undefined){
+                            var inner2 = sublinks2.length;
+                            navigation += "<ul>";
+                            for(var j = 0; j < inner2; j++){
+                                navigation += "<li>"+$(sublinks2[j]).html()+"</li>";
+                            }
+                            navigation += "</ul>";
+                        }
+                        navigation += "</li>"
+                    }
                     navigation += "</ul>";
+                    
+                    
+                    
+                    
                     dm.html(navigation);
                 })();
                     
