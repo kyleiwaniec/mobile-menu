@@ -35,3 +35,8 @@ Both menus can be previewed here (should be viewed on a smart phone or FF/CHROME
 http://candpgeneration.com/toys/mobile-menu/mobile-menu-flip.html
 
 http://candpgeneration.com/toys/mobile-menu/mobile-menu-slide.html
+
+
+This file contains styles and some additional js for the desktop view:
+
+http://candpgeneration.com/toys/mobile-menu/mobile-menu-full.html
